@@ -48,20 +48,9 @@ The Naive Bayes classifier performed best with an accuracy of approximately 85%,
    ```bash
    git clone https://github.com/your-username/heart-disease-prediction.git
    cd heart-disease-prediction
-Create a virtual environment (optional but recommended):
+2. Create a virtual environment (optional but recommended):
+  python -m venv venv
+  source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Usage
-Open the Jupyter notebook heart_disease_prediction.ipynb to explore data, preprocessing steps, model training, and evaluation.
-
-Alternatively, run the Python scripts (if available) for training and testing.
+3. Install dependencies:
+  pip install -r requirements.txt
